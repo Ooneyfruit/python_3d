@@ -120,7 +120,7 @@ while True:
     	
     	#Calculate dimensions of vectors by subtracting the start points from the end points:
     	vector_AB = vA = [(Bx-Ax), (By-Ay), (Bz-Az)]
-    	vector_AC = vB = [(Cx-Ax), (Cy-Ay), (Bz-Az)]
+    	vector_AC = vB = [(Cx-Ax), (Cy-Ay), (Cz-Az)]
     	
     	#Cross product of vectors AB and AC to make vector N, the normal:
     	normal_vector = [(vA[1]*vB[2])-(vA[2]*vB[1]),(vA[2]*vB[0])-(vA[0]*vB[2]),(vA[0]*vB[1])-(vA[1]*vB[0])]
